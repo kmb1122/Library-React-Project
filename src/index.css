@@ -523,8 +523,10 @@ BOOKS PAGE
 select {
   background-color: #fff;
   border-radius: 4px;
-  border: 1px solid #dcdfe6;
-  color: #606266;
+  border: 2px solid #858689;
+  color: #858689;
+  font-size: 16px;
+  font-weight: 500;
   height: 40px;
   line-height: 40px;
   outline: none;
