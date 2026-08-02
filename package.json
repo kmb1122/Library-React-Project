@@ -2,7 +2,7 @@
   "name": "library-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kmb1122.github.io/Library-React-Project/",
+  "homepage": "https://kmb1122.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.2.0",
     "@fortawesome/free-brands-svg-icons": "^7.2.0",
