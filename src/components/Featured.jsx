@@ -1,6 +1,5 @@
 import BestBooks from "./ui/BestBooks";
 import React from "react";
-import Book from "./Book";
 
 const Featured = () => {
   return (

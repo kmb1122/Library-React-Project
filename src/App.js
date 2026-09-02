@@ -25,7 +25,7 @@ function App() {
                 : item;
             }),
           ]
-        : [...oldCart, { ...book, quantity: 1 }]
+        : [...oldCart, { ...book, quantity: 1 }],
     );
   }
 
@@ -40,20 +40,12 @@ function App() {
         } else {
           return oldItem;
         }
-      })
+      }),
     );
   }
 
   function removeItem(item) {
     setCart((oldCart) => oldCart.filter((cartItem) => cartItem.id !== item.id));
-  }
-
-  function numberOfItems() {
-    let counter = 0;
-    cart.forEach((item) => {
-      counter += +item.quantity;
-    });
-    return counter;
   }
 
   function numberOfItems() {

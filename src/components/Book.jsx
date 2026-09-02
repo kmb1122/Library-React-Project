@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Price from "./ui/Price";
 import Ratings from "./ui/Ratings";
@@ -13,8 +13,8 @@ const Book = ({ book }) => {
       setTimeout(() => {
         setImg(image);
       }, 300);
-    }
-  })
+    };
+  });
 
   return (
     <div className="book">
@@ -22,10 +22,7 @@ const Book = ({ book }) => {
         <>
           <Link to={`/books/${book.id}`}>
             <figure className="book__img--wrapper">
-              <img 
-              className="book__img" 
-              src={img.src} 
-              alt="" />
+              <img className="book__img" src={img.src} alt="" />
             </figure>
           </Link>
           <div className="book__title">
@@ -50,6 +47,5 @@ const Book = ({ book }) => {
     </div>
   );
 };
-
 
 export default Book;
